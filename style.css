@@ -216,7 +216,7 @@ label span {
 .sidebar2 {
     width: 100%;
     padding: 20px;
-    position: absolute;
+    position: fixed;
     top: 30.5px;
     display: none;
 }
