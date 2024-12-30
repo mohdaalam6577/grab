@@ -1108,6 +1108,11 @@ footer img {
         flex: 0 0 100%;
     }
 
+    .card p {
+        overflow: hidden;
+        width: 80%;
+    }
+
     .search-bar:focus-within {
         width: 210px;
     }
