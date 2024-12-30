@@ -855,11 +855,11 @@ footer img {
     }
 
     #sidebar:checked ~ .sidebar2 {
-        display: block;
+        display: none;
     }
 
     #sidebar:checked ~ .sidebar-content {
-        display: none;
+        display: block;
     }
 
     main.container {
