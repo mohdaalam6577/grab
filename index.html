@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Icon Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <!-- Google Font Link "Inter", serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="Icon" href="./assets/logo/logo icon/logo icon.png">
+    <title>Grab. The Everyday Everything App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <video autoplay loop muted plays-inline class="background-clip">
+                <source src="./assets/video/hero-video.mp4" type="video/mp4">
+            </video>
+            <div class="content">
+                <h1>Grab. Making every <br> day better</h1>
+            </div>   
+        </div>
+
+        <!-- Navbar Section -->
+        <nav class="sticky-nav">
+            <div class="navbar">
+                <div class="left-nav">
+                    <div class="btn">
+                        <input type="checkbox" id="check" />
+                        <label for="sidebar">
+                            <i class="fa-solid fa-bars"></i>
+                            <span>Menu</span>
+                        </label>
+                    </div>
+                    <div class="logo">
+                        <a href="#"><img src="./assets/logo/grab-logo.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="right-nav">
+                    <ul>
+                        <li><a href="#" style="color: #00b14f;">what's new</a></li>
+                        <li><a href="#" class="dropdown">be our partner</a>
+                            <input type="checkbox" id="dropdown">
+                            <label for="dropdown">
+                                <i class="fa-solid fa-chevron-down" style="cursor: pointer; font-size: 15px; color: #363a45; margin-left: 2px;"></i>
+                            </label>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><a href="#">grab driver</a></li>
+                                    <li><a href="#">food delivery driver</a></li>
+                                    <li><a href="#">express delivery driver</a></li>
+                                    <li><a href="#">food / mart merchant</a></li>
+                                    <li><a href="#">pay merchant</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Help center</a></li>
+                    </ul>
+
+                    <div class="search-container">
+                        <div class="search-bar">
+                          <input type="text" class="search-input">
+                          <button class="search-icon">
+                            <i class="fa-solid fa-search"></i>
+                          </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>  
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <input type="checkbox" id="sidebar"/>
+            <div class="sidebar2">
+                <ul>
+                    <li><a href="#">what's new</a></li>
+                    <li><a href="#"><span>be our partner</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="#">help center</a></li>
+                    <li><a href="#"><span>about</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="#"><span>consumer</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="#"><span>driver</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="#"><span>merchant</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="#"><span>enterprise</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
+            </div>
+            <div class="sidebar-content">
+                <div class="content">
+                    <div class="left-content">
+                        <ul>
+                            <li class="active"><a href="#" class="active">about</a></li>
+                            <li><a href="#">consumer</a></li>
+                            <li><a href="#">driver</a></li>
+                            <li><a href="#">merchant</a></li>
+                            <li><a href="#">enterprise</a></li>
+                        </ul>
+                    </div>
+                    <div class="right-content">
+                        <div class="item">                       
+                            <h4><a href="#">About us</a></h4>
+                            <p>Who we are and what we stand for</p>                       
+                        </div>
+                        <div class="item">                       
+                            <h4><a href="#">Inside grab</a></h4>
+                            <p>News and stories from our official blog</p>                       
+                        </div>
+                        <div class="item">                       
+                            <h4><a href="#">invester relations</a></h4>
+                            <p>Information for our investors</p>                       
+                        </div>
+                        <div class="item">                       
+                            <h4><a href="#">locations</a></h4>
+                            <p>Cities and countries we call home</p>                       
+                        </div>
+                        <div class="item">                       
+                            <h4><a href="#">sustainability</a></h4>
+                            <p>How we deliver impact to the communities we serve</p>                       
+                        </div>
+                        <div class="item">                       
+                            <h4><a href="#">newsroom</a></h4>
+                            <p>Latest news and announcements, fresh off the press</p>                       
+                        </div>
+                        <div class="item">                       
+                            <h4><a href="#">grab financial group</a></h4>
+                            <p>Financial services that are accessible and affordable to all </p>                       
+                        </div>
+                        <div class="item">                       
+                            <h4><a href="#">careers</a></h4>
+                            <p>Join us on our mission to drive Southeast Asia forward</p>                       
+                        </div>
+                        <div class="item">                       
+                            <h4><a href="#">grab for good fund</a></h4>
+                            <p>Our endowment fund empowering the communities of Southeast Asia</p>                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-us">
+            <a href="#">read about us</a>
+        </div>
+        <div class="download">
+            <a href="#">download app</a>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="container">
+        <div class="title">
+            <h3>From essential services to earning <br> opportunities. We're an all-in-one platform.</h3>
+        </div>
+
+        <div class="item-list">
+            <ul>
+                <li class="active"><a href="#" style="color: #f3f6fb;">Consumer</a></li>
+                <li><a href="#">Driver</a></li>
+                <li><a href="#">Merchant</a></li>
+                <li><a href="#">Enterprise</a></li>
+            </ul>
+        </div>
+
+        <div class="delivery-item items">
+            <div class="hadding">
+                <h3>Deliveries</h3>
+            </div>
+            <div class="service">
+                <div class="service-items">
+                    <div class="img">
+                        <img src="assets/img/food.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <h5>Food</h5>
+                        <p>Have all your cravings delivered to your doorstep.</p>
+                    </div>
+                </div>
+                <div class="service-items">
+                    <div class="img">
+                        <img src="./assets/img/mart.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <h5>Mart</h5>
+                        <p>Find everything you need—groceries and more.</p>
+                    </div>
+                </div>
+                <div class="service-items" style="border-bottom: none;">
+                    <div class="img">
+                        <img src="./assets/img/express.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <h5>Express</h5>
+                        <p>Send packages, documents, and beyond.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="delivery-item items">
+            <div class="hadding">
+                <h3>Mobility</h3>
+            </div>
+            <div class="service">
+                <div class="service-items" style="border-bottom: none;">
+                    <div class="img">
+                        <img src="./assets/img/rides.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <h5>Rides</h5>
+                        <p>Choose from a vehicles to take you from A to B.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="delivery-item items">
+            <div class="hadding">
+                <h3>Financial Services</h3>
+            </div>
+            <div class="service">
+                <div class="service-items">
+                    <div class="img">
+                        <img src="./assets/img/pay.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <h5>Pay</h5>
+                        <p>Secure cashless payments, online and in-store.</p>
+                    </div>
+                </div>
+                <div class="service-items" style="border-bottom: none;">
+                    <div class="img">
+                        <img src="./assets/img/insurance.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <h5>Insurance</h5>
+                        <p>Get everyday protection with accessible insurance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="more-services">
+        <a href="#">
+            Show More Services
+            <i class="fa-solid fa-plus"></i>
+        </a>
+    </div>
+
+    <!-- Card slider -->
+    <div class="card-container">
+        <h3>Newsrooms</h3>
+        <div class="slider">
+            <div class="card">
+                <img src="./assets/img/card 1.jpeg" alt="Card Image">
+                <span>22 Dec 2024</span>
+                <p>GroupM and GrabAds Unlock the Power of Geo-Based Audience...</p>
+                <button>Read More</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/card 2.jpeg" alt="Card Image">
+                <span>23 Dec 2024</span>
+                <p>Grab Reports Third Quarter 2024 Results</p>
+                <button>Read More</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/card 3.jpeg" alt="Card Image">
+                <span>24 Dec 2024</span>
+                <p>GroupM and GrabAds Unlock the Power of Geo-Based Audience...</p>
+                <button>Read More</button>
+            </div>
+            <div class="card">
+                <img src="./assets/img/card 4.png" alt="Card Image">
+                <span>25 Dec 2024</span>
+                <p>Grab Reports Third Quarter 2024 Results</p>
+                <button>Read More</button>
+            </div>
+
+            
+        </div>
+
+        <div class="more-news">
+            <a href="#">More News Releases</a>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="company-details">
+            <a href="#"><img src="./assets/logo/grab-logo.png" alt=""></a>
+            <div class="grab-info">
+                <h6>Forward Together</h6>
+                <p>3 Media Close, <br> Singapore 138498</p>
+                <div class="social-title">
+                    Follow us and keep updated!
+                </div>
+                <div class="social-links">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+
+                <div class="countries">
+                    <div class="options">
+                        <a href="#"><img src="./assets/img/india.png" alt=""></a>
+                        <span>India</span>
+
+                        <input type="checkbox" id="country">
+                        <label for="country">
+                            <i class="fa-solid fa-chevron-up"></i>
+                        </label>
+                        
+                        <div class="country">
+                            <ul>
+                                <li><a href="#"><img src="./assets/img/india.png" alt="">India</a></li>
+                                <li><a href="#"><img src="./assets/img/singapore.png" alt="">Singapore</a></li>
+                                <li><a href="#"><img src="./assets/img/malaysia.png" alt="">Malaysia</a></li>
+                                <li><a href="#"><img src="./assets/img/america.png" alt="">America</a></li>
+                                <li><a href="#"><img src="./assets/img/japan.png" alt="">Japan</a></li>
+                                <li><a href="#"><img src="./assets/img/dubai.png" alt="">Dubai</a></li>
+                                <li><a href="#"><img src="./assets/img/indonesia.png" alt="">Indonesia</a></li>
+                                <li><a href="#"><img src="./assets/img/vietnam.png" alt="">Vietnam</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grab-contact"></div>
+        </div>
+        <div class="company-info">
+            <div class="info-list">
+                <ul>
+                    <h5>About</h5>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">inside grab</a></li>
+                    <li><a href="#">invester relations</a></li>
+                    <li><a href="#">locations</a></li>
+                    <li><a href="#">sustainability</a></li>
+                    <li><a href="#">Newsrooms</a></li>
+                    <li><a href="#">grab financial group</a></li>
+                    <li><a href="#">careers</a></li>
+                    <li><a href="#">GrabForGood Fund</a></li>
+                </ul>
+                <ul>
+                    <h5>Consumer</h5>
+                    <li><a href="#">Airport Guides</a></li>
+                    <li><a href="#">Rides</a></li>
+                    <li><a href="#">GrabFood</a></li>
+                    <li><a href="#">GrabMart</a></li>
+                    <li><a href="#">GrabExpress</a></li>
+                    <li><a href="#">GrabRewards</a></li>
+                    <li><a href="#">GrabGifts</a></li>
+                    <li><a href="#">Financial Services</a></li>
+                    <li><a href="#">Family Account BETA</a></li>
+                    <li><a href="#">What's New</a></li>
+                </ul>
+                <ul>
+                    <h5>Driver</h5>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Drive with us</a></li>
+                    <li><a href="#">Deliver with us</a></li>
+                    <li><a href="#">Financial services</a></li>
+                    <li><a href="#">Driver Center</a></li>
+                    <li><a href="#">GrabAcademy</a></li>
+                </ul>
+                <ul>
+                    <h5>Merchant</h5>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Partner with us</a></li>
+                    <li><a href="#">Financial services</a></li>
+                    <li><a href="#">Financial resources</a></li>
+                    <li><a href="#">GrabExpress</a></li>
+                </ul>
+                <ul>
+                    <h5>Enterprise</h5>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Grab for Business</a></li>
+                    <li><a href="#">GrabAds</a></li>
+                    <li><a href="#">GrabGifts</a></li>
+                    <li><a href="#">GrabFinance</a></li>
+                    <li><a href="#">GrabExpress</a></li>
+                    <li><a href="#">GrabDefence</a></li>
+                    <li><a href="#">GrabMaps</a></li>
+                    <li><a href="#">Business Delivery Service</a></li>
+                </ul>
+                <ul>
+                    <h5>Quick Links</h5>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Food Menu</a></li>
+                    <li><a href="#">Developer Portal</a></li>
+                    <li><a href="#">Tech Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="flex-left">
+            <a href="#">Terms and Policies</a>
+            <div class="circle"></div>
+            <a href="#">Privacy Notice</a>
+        </div>
+        <div class="copy-right">
+            <p>&copy; Grab 2024 - 2034</p>
+        </div>
+        <div class="flex-right">
+            <img src="./assets/img/footer-img 1.png" alt="apple-img">
+            <img src="./assets/img/footer-img 2.png" alt="google-play-img">
+            <img src="./assets/img/footer-img 3.png" alt="app-gallery-img">
+        </div>
+    </footer>
+
+    <script>
+        const slider = document.querySelector('.slider');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+    
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            slider.classList.add('active');
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        });
+    
+        slider.addEventListener('mouseleave', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+    
+        slider.addEventListener('mouseup', () => {
+            isDown = false;
+            slider.classList.remove('active');
+        });
+    
+        slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 2;
+            slider.scrollLeft = scrollLeft - walk;
+        });
+    </script>
+</body>
+</html>
